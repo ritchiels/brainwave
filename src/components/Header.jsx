@@ -9,7 +9,7 @@ import MenuSvg from "../assets/svg/MenuSvg";
 
 const Header = () => {
     const pathname = useLocation();
-    const [openNavigation, setOpenNavigation] = useState(true);
+    const [openNavigation, setOpenNavigation] = useState(false);
 
     const toggleNavigation = () => {
         if (openNavigation) {
