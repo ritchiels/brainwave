@@ -50,3 +50,5 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
+//2:51:41
